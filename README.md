@@ -8,7 +8,7 @@ Works with [CloudRig](https://extensions.blender.org/add-ons/cloudrig/) by the B
 
 ## Install
 
-1. Download `cloudrig_picker-<version>.zip` from the **Releases** page of this repository.
+1. Download **[cloudrig_picker-0.2.1.zip](https://github.com/shaguru/cloudrigpicker/raw/main/dist/cloudrig_picker-0.2.1.zip)** (also in the `dist` folder).
 2. In Blender: **Edit ▸ Preferences ▸ Get Extensions ▸ ⌄ (top-right) ▸ Install from Disk…** and pick the zip.
    (You can also drag the zip onto the Blender window.)
 
@@ -57,7 +57,7 @@ for a different rig, press Edit and build your own layout.
 
 ```
 cd cloudrig_picker
-zip -r ../cloudrig_picker-0.2.1.zip . -x "__pycache__/*"
+zip -r ../dist/cloudrig_picker-0.2.1.zip . -x "__pycache__/*"
 ```
 
 or with Blender: `blender --command extension build --source-dir cloudrig_picker`.

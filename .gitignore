@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 *.zip
+!dist/*.zip
 _dev/
 .DS_Store
